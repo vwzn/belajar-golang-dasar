@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	var nilai32 int32 = 32768
@@ -12,4 +14,12 @@ func main() {
 	fmt.Println(nilai64)
 	fmt.Println(nilai16)
 	fmt.Println(nilai8)
+
+	var name = "Ahmad Fauzan"
+	var e uint8= name[0]
+	var eString = string(e)
+
+	fmt.Println(name)
+	fmt.Println(e)
+	fmt.Println(eString)
 }
